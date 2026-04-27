@@ -139,7 +139,8 @@ export const registry = {
 export const footer = {
   company: "MBC",
   legalName: "PT. Mitra Borneo Cemerlang",
-  address: "Jl. Jenderal Ahmad Yani No. 09, Balikpapan, East Kalimantan",
+  address:
+    "Citywalk Sudirman No.121 Jalan KH. Mas Mansyur Kelurahan Karet Tengsin, Tanah Abang, Jakarta Pusat 10220",
   email: "mitraborneocemerlang@gmail.com",
   links: [
     "Fleet Categories",
