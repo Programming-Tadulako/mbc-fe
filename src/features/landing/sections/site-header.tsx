@@ -12,12 +12,12 @@ export function SiteHeader() {
         <nav className="hidden flex-wrap items-center gap-5 text-xs font-semibold tracking-widest text-muted-foreground uppercase md:flex">
           {navItems.map((item) => (
             <Link
-              key={item}
-              href="#"
-              data-active={item === "Home" ? "true" : "false"}
-              className="data-[active=true]:text-primary data-[active=true]:underline data-[active=true]:underline-offset-4"
+              key={item.label}
+              href={item.href}
+              data-active={item.label === "Home" ? "true" : "false"}
+              className="transition-colors hover:text-primary focus:text-primary data-[active=true]:text-primary"
             >
-              {item}
+              {item.label}
             </Link>
           ))}
         </nav>

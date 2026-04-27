@@ -1,11 +1,10 @@
+import type { Route } from "next";
 import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr";
 
 export const navItems = [
-  "Home",
-  "Portfolio",
-  "Engineering",
-  "Sustainability",
-  "Partners",
+  { label: "Services", href: "#services" as Route },
+  { label: "Fleet", href: "#fleet" as Route },
+  { label: "About", href: "#about" as Route },
 ];
 
 export const hero = {
@@ -57,7 +56,7 @@ export const valueSection = {
   ],
 };
 
-export const operations = {
+export const services = {
   title: "Operational Excellence",
   subtitle: "Guaranteed services for uninterrupted corporate movement.",
   items: [
@@ -136,6 +135,23 @@ export const registry = {
   ],
 };
 
+export const aboutSection = {
+  title: "Our Team",
+  subtitle: "People behind every reliable dispatch and strategic decision.",
+  members: [
+    {
+      name: "Cintya Wullur",
+      position: "TBA",
+      image: "/images/landing/cintya_w.webp",
+    },
+    {
+      name: "Masni Renova",
+      position: "TBA",
+      image: "/images/landing/masni_r.webp",
+    },
+  ],
+};
+
 export const footer = {
   company: "MBC",
   legalName: "PT. Mitra Borneo Cemerlang",
@@ -143,12 +159,11 @@ export const footer = {
     "Citywalk Sudirman No.121 Jalan KH. Mas Mansyur Kelurahan Karet Tengsin, Tanah Abang, Jakarta Pusat 10220",
   email: "mitraborneocemerlang@gmail.com",
   links: [
+    "About Us",
     "Fleet Categories",
     "Service Standards",
-    "Sustainability",
     "Privacy Policy",
     "Terms of Service",
-    "Compliance",
   ],
   copyright:
     "© 2026 PT. Mitra Borneo Cemerlang. Engineering Excellence in Mobility & Fleet Integrity.",

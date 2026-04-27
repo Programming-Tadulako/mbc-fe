@@ -34,9 +34,16 @@ export function ValuesSection() {
           {valueSection.cards.map((item, idx) => {
             const Icon = valueIcons[idx];
             return (
-              <Card key={item.title} className="border-primary/25 bg-white">
+              <Card
+                key={item.title}
+                className="border-primary/25 bg-white text-center md:text-start"
+              >
                 <CardHeader className="space-y-2">
-                  <Icon className="text-primary" size={22} weight="duotone" />
+                  <Icon
+                    size={22}
+                    weight="duotone"
+                    className="mx-auto text-primary md:mx-0"
+                  />
                   <CardDescription className="font-mono text-xs tracking-widest text-primary uppercase">
                     {item.title}
                   </CardDescription>

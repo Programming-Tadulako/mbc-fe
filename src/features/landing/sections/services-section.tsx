@@ -4,24 +4,27 @@ import {
   HeadsetIcon,
   ShieldCheckIcon,
 } from "@phosphor-icons/react/dist/ssr";
-import { operations } from "@/features/landing/constants";
+import { services } from "@/features/landing/constants";
 
-const opIcons = [GaugeIcon, ShieldCheckIcon, HeadsetIcon, FlagIcon];
+const srvIcons = [GaugeIcon, ShieldCheckIcon, HeadsetIcon, FlagIcon];
 
-export function OperationsSection() {
+export function ServicesSection() {
   return (
-    <section className="space-y-8 rounded-md border border-border bg-white p-4 md:p-8">
+    <section
+      id="services"
+      className="scroll-mt-8 space-y-8 rounded-md border border-border bg-white px-4 py-6 md:scroll-mt-16 md:px-8 md:py-12"
+    >
       <div className="flex flex-wrap items-end justify-between gap-4">
         <h2 className="font-display text-4xl leading-none uppercase md:text-5xl">
           Operational <span className="text-primary">Excellence</span>
         </h2>
         <p className="max-w-sm text-right font-mono text-xs tracking-widest text-primary uppercase">
-          {operations.subtitle}
+          {services.subtitle}
         </p>
       </div>
       <div className="grid gap-0 border border-border md:grid-cols-2 lg:grid-cols-4">
-        {operations.items.map((item, idx) => {
-          const Icon = opIcons[idx];
+        {services.items.map((item, idx) => {
+          const Icon = srvIcons[idx];
           return (
             <article
               key={item.title}

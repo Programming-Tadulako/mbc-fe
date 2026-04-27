@@ -9,7 +9,10 @@ import { hero } from "@/features/landing/constants";
 
 export function ShowcaseSection() {
   return (
-    <section className="relative h-70 overflow-hidden rounded-3xl md:h-105">
+    <section
+      id="showcase"
+      className="relative h-70 overflow-hidden rounded-3xl md:h-105"
+    >
       <Image
         src={hero.heroImage}
         alt="Premium fleet vehicle"
