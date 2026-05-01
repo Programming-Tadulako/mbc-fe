@@ -5,7 +5,7 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="scroll-mt-8 rounded-md border border-border bg-white p-4 py-8 md:scroll-mt-16 md:p-12 md:py-16"
+      className="scroll-mt-24 rounded-md border border-border bg-white p-4 py-8 md:scroll-mt-28 md:p-12 md:py-16"
     >
       <div className="mx-auto max-w-6xl space-y-20">
         <div className="flex flex-col items-center space-y-6 text-center">

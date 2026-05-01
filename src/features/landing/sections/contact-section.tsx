@@ -6,7 +6,7 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="scroll-mt-8 space-y-8 rounded-md border border-border bg-white px-4 py-8 md:scroll-mt-16 md:px-8 md:py-12"
+      className="scroll-mt-24 space-y-8 rounded-md border border-border bg-white px-4 py-8 md:scroll-mt-28 md:px-8 md:py-12"
     >
       <div className="space-y-2">
         <h2 className="font-display text-4xl leading-none uppercase md:text-5xl">

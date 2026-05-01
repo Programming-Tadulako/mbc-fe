@@ -12,7 +12,7 @@ export function ServicesSection() {
   return (
     <section
       id="services"
-      className="scroll-mt-8 space-y-8 rounded-md border border-border bg-white px-4 py-6 md:scroll-mt-16 md:px-8 md:py-12"
+      className="scroll-mt-24 space-y-8 rounded-md border border-border bg-white px-4 py-6 md:scroll-mt-28 md:px-8 md:py-12"
     >
       <div className="flex flex-wrap items-end justify-between gap-4">
         <h2 className="font-display text-4xl leading-none uppercase md:text-5xl">

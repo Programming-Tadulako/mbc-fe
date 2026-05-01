@@ -14,7 +14,7 @@ export function FleetSection() {
   return (
     <section
       id="fleet"
-      className="scroll-mt-8 space-y-8 rounded-md border border-border bg-zinc-800 p-4 md:scroll-mt-16 md:p-8"
+      className="scroll-mt-24 space-y-8 rounded-md border border-border bg-zinc-800 p-4 md:scroll-mt-28 md:p-8"
     >
       <h2 className="text-center font-display text-5xl text-secondary uppercase md:text-6xl">
         The <span className="text-primary">Fleet</span>

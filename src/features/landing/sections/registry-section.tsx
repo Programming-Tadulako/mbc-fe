@@ -5,7 +5,7 @@ export function RegistrySection() {
   return (
     <section
       id="registry"
-      className="rounded-md border border-border bg-zinc-800 px-4 py-8 md:px-8"
+      className="scroll-mt-24 rounded-md border border-border bg-zinc-800 px-4 py-8 md:scroll-mt-28 md:px-8"
     >
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-4">
