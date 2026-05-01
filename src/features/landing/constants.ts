@@ -26,13 +26,13 @@ export const hero = {
   ctas: [
     {
       label: "Explore Fleet",
-      href: "#fleet",
+      href: "#fleet" as Route,
       variant: "default" as const,
       icon: ArrowUpRightIcon,
     },
     {
       label: "Documentation",
-      href: "#documentation",
+      href: "#documentation" as Route,
       variant: "outline" as const,
     },
   ],
