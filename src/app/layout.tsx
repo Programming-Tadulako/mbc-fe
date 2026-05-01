@@ -16,8 +16,7 @@ const bebasNeue = Bebas_Neue({
 
 export const metadata: Metadata = {
   title: "MBC | Strategic Mobility Partner",
-  description:
-    "PT. Mitra Borneo Cemerlang fleet landing page for corporate transportation services.",
+  description: "PT. Mitra Borneo Cemerlang fleet landing page.",
 };
 
 export default function RootLayout({
