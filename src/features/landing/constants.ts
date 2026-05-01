@@ -123,12 +123,42 @@ export const fleet = {
 };
 
 export const cities = [
-  "Kota Balikpapan",
-  "Samarinda",
-  "Bontang",
-  "Kutai Timur",
-  "Penajam Paser Utara",
-  "Parigi Moutong",
+  {
+    name: "Kota Balikpapan",
+    image: "/images/cities/balikpapan.webp",
+  },
+  {
+    name: "Kota Samarinda",
+    image: "/images/cities/samarinda.webp",
+  },
+  {
+    name: "Kota Bontang",
+    image: "/images/cities/bontang.webp",
+  },
+  {
+    name: "Kabupaten Kutai Timur",
+    image: "/images/cities/kutai_timur.webp",
+  },
+  {
+    name: "Kabupaten Penajam Paser Utara",
+    image: "/images/cities/penajam_paser_utara.webp",
+  },
+  {
+    name: "Kabupaten Parigi Moutong",
+    image: "/images/cities/parigi_moutong.webp",
+  },
+  {
+    name: "Dinkes Kaltim",
+    image: "/images/cities/dinkes_kaltim.webp",
+  },
+  {
+    name: "Kabupaten Nunukan",
+    image: "/images/cities/nunukan.webp",
+  },
+  {
+    name: "Kabupaten Tana Tidung",
+    image: "/images/cities/tana_tidung.webp",
+  },
 ];
 
 export const registry = {

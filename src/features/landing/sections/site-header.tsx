@@ -1,10 +1,26 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { navItems } from "@/features/landing/constants";
+import { ListIcon } from "@phosphor-icons/react/dist/ssr";
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
 
 export function SiteHeader() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <header className="sticky top-5 z-10 rounded-sm border border-border/80 bg-white/95 px-4 py-3 backdrop-blur md:px-6">
+    <header className="sticky top-5 z-50 rounded-sm border border-border/80 bg-white/95 px-4 py-3 backdrop-blur md:px-6">
       <div className="flex items-center justify-between gap-6">
         <Link
           href={"/"}
@@ -17,14 +33,64 @@ export function SiteHeader() {
             <Link
               key={item.label}
               href={item.href}
-              data-active={item.label === "Home" ? "true" : "false"}
-              className="transition-colors hover:text-primary focus:text-primary data-[active=true]:text-primary"
+              className="transition-colors hover:text-primary focus:text-primary"
             >
               {item.label}
             </Link>
           ))}
         </nav>
-        <Button size="sm">Enquire Now</Button>
+        <div className="flex items-center gap-2">
+          <Button size="sm" className="hidden md:flex">
+            Enquire Now
+          </Button>
+
+          <Drawer open={isOpen} onOpenChange={setIsOpen} direction="left">
+            <DrawerTrigger asChild>
+              <Button
+                variant="outline"
+                size="icon"
+                className="flex md:hidden h-8 w-8"
+              >
+                <ListIcon size={18} />
+                <span className="sr-only">Toggle Menu</span>
+              </Button>
+            </DrawerTrigger>
+            <DrawerContent>
+              <div className="mx-auto w-full max-w-sm">
+                <DrawerHeader className="text-left">
+                  <DrawerTitle className="font-display text-2xl tracking-wide text-primary uppercase">
+                    MBC
+                  </DrawerTitle>
+                  <DrawerDescription>
+                    Navigate through our sections.
+                  </DrawerDescription>
+                </DrawerHeader>
+                <nav className="flex flex-col gap-4 p-4 text-sm font-semibold tracking-widest text-muted-foreground uppercase">
+                  {navItems.map((item) => (
+                    <Link
+                      key={item.label}
+                      href={item.href}
+                      onClick={() => setIsOpen(false)}
+                      className="block py-2 transition-colors hover:text-primary focus:text-primary"
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </nav>
+                <DrawerFooter className="pt-2">
+                  <Button size="sm" className="w-full">
+                    Enquire Now
+                  </Button>
+                  <DrawerClose asChild>
+                    <Button variant="outline" className="w-full">
+                      Close
+                    </Button>
+                  </DrawerClose>
+                </DrawerFooter>
+              </div>
+            </DrawerContent>
+          </Drawer>
+        </div>
       </div>
     </header>
   );
