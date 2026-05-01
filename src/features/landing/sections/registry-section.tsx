@@ -5,14 +5,14 @@ export function RegistrySection() {
   return (
     <section
       id="registry"
-      className="rounded-md border border-border bg-mbc-surface px-4 py-8 md:px-8"
+      className="rounded-md border border-border bg-zinc-800 px-4 py-8 md:px-8"
     >
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-4">
-          <h2 className="font-display text-4xl leading-none uppercase md:text-5xl">
+          <h2 className="font-display text-4xl leading-none text-secondary uppercase md:text-5xl">
             Corporate <span className="text-primary">Registry Verified</span>
           </h2>
-          <p className="max-w-xl text-sm leading-relaxed text-muted-foreground md:text-base">
+          <p className="max-w-xl text-sm leading-relaxed text-muted md:text-base">
             {registry.body}
           </p>
         </div>

@@ -13,18 +13,18 @@ const valueIcons = [EyeIcon, FlagIcon];
 
 export function ValuesSection() {
   return (
-    <section className="rounded-md border border-border/60 bg-mbc-surface px-4 py-12 md:px-8">
+    <section className="rounded-md border border-border/60 bg-zinc-800 px-4 py-12 md:px-8">
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-5">
-          <h2 className="font-display text-4xl leading-none uppercase md:text-5xl">
+          <h2 className="font-display text-4xl leading-none uppercase md:text-5xl text-secondary">
             Precision & <span className="text-primary">Integrity</span>
           </h2>
-          <p className="text-sm leading-relaxed text-muted-foreground md:text-base">
+          <p className="text-sm leading-relaxed text-muted md:text-base">
             {valueSection.body}
           </p>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-4">
             {valueSection.chips.map((chip) => (
-              <Badge key={chip} variant="secondary">
+              <Badge className="text-muted" key={chip} variant="secondary">
                 {chip}
               </Badge>
             ))}

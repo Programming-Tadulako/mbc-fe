@@ -8,3 +8,4 @@ export { CitiesSection } from "./cities-section";
 export { RegistrySection } from "./registry-section";
 export { AboutSection } from "./about-section";
 export { SiteFooter } from "./site-footer";
+export { ContactSection } from "./contact-section";

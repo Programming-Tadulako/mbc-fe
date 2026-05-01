@@ -9,6 +9,7 @@ import {
   SiteFooter,
   CitiesSection,
   ServicesSection,
+  ContactSection,
 } from "@/features/landing/sections";
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         <AboutSection />
         <CitiesSection />
         <RegistrySection />
+        <ContactSection />
         <SiteFooter />
       </main>
     </div>

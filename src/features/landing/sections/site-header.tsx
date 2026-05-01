@@ -4,11 +4,14 @@ import { navItems } from "@/features/landing/constants";
 
 export function SiteHeader() {
   return (
-    <header className="rounded-sm border border-border/80 bg-white/95 px-4 py-3 backdrop-blur md:px-6">
+    <header className="sticky top-5 z-10 rounded-sm border border-border/80 bg-white/95 px-4 py-3 backdrop-blur md:px-6">
       <div className="flex items-center justify-between gap-6">
-        <p className="font-display text-2xl tracking-wide text-primary uppercase">
+        <Link
+          href={"/"}
+          className="font-display text-2xl tracking-wide text-primary uppercase"
+        >
           MBC
-        </p>
+        </Link>
         <nav className="hidden flex-wrap items-center gap-5 text-xs font-semibold tracking-widest text-muted-foreground uppercase md:flex">
           {navItems.map((item) => (
             <Link

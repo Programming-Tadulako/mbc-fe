@@ -9,19 +9,19 @@ export const navItems = [
 
 export const hero = {
   registry: "Established Registry No. 180420031281",
-  subtitle: "Strategic fleet for vehicle solutions",
+  subtitle: "Strategic transportation partner",
   title: ["Strategic", "Mobility", "Partner"],
   description:
-    "Scalable, high-performance vehicle rental solutions engineered for corporate excellence. Delivering reliability across standard, premium, and EV fleets.",
+    "Delivering reliable, efficient, and scalable vehicle rental solutions for corporate and institutional clients. Ensuring seamless mobility and uninterrupted business operations.",
   achievement:
-    "Since 2014, Mitra Borneo Cemerlang has completed over 1,200 contracts and remains the highest-rated provider in East Kalimantan.",
+    "Trusted by government institutions across Kalimantan and Central Sulawesi for professional fleet management and responsive support.",
   certificate: {
-    id: "04.3.8/MANIFEST/2026",
-    label: "Government Verified",
+    id: "NIB: 1604250031831",
+    label: "OSS Verified PMDN",
   },
   stats: {
-    vehicles: "2,650+",
-    label: "Ready Fleet Units",
+    vehicles: "Diverse",
+    label: "Hybrid & EV Ready",
   },
   ctas: [
     {
@@ -31,7 +31,7 @@ export const hero = {
       icon: ArrowUpRightIcon,
     },
     {
-      label: "Documentation",
+      label: "Company Profile",
       href: "#documentation" as Route,
       variant: "outline" as const,
     },
@@ -41,40 +41,41 @@ export const hero = {
 };
 
 export const valueSection = {
-  title: "Precision & Integrity",
-  body: "At PT. Mitra Borneo Cemerlang, we bridge the gap between industrial strength and corporate sophistication. Our commitment to integrity and professionalism ensures every journey is executed with exacting standards.",
-  chips: ["Trust", "Efficiency", "Sustainability"],
+  title: "Integrity & Professionalism",
+  body: "With a foundation of integrity, professionalism, and continuous improvement, MBC is dedicated to building long-term partnerships and delivering measurable value through every mobility solution.",
+  chips: ["Integrity", "Professionalism", "Continuous Improvement"],
   cards: [
     {
       title: "Vision",
-      body: "To disrupt trusted transportation partners, setting benchmark standards for corporate mobility.",
+      body: "Trusted transportation partner.",
     },
     {
       title: "Mission",
-      body: "Provide professional services and maintain a reliable, high-performance fleet.",
+      body: "Professional service, reliable fleet, long-term partnership.",
     },
   ],
 };
 
 export const services = {
-  title: "Operational Excellence",
-  subtitle: "Guaranteed services for uninterrupted corporate movement.",
+  title: "Service Level Agreement",
+  subtitle:
+    "Our commitment to consistent service quality and operational efficiency.",
   items: [
     {
       title: "Vehicle Readiness",
-      body: "Impeccably detailed and mechanically sound units guarantee reliable delivery at dispatch.",
+      body: "Maintaining maximum vehicle readiness through disciplined fleet management and high operational standards.", // Sesuai dokumen
     },
     {
-      title: "Timely Delivery",
-      body: "Precision logistics ensure your fleet arrives exactly when and where needed.",
+      title: "Timely Logistics",
+      body: "Ensuring timely delivery and pickup of vehicles to minimize operational disruptions for your business.", // Sesuai dokumen
     },
     {
       title: "Responsive Support",
-      body: "Dedicated account managers provide rapid resolution to operational requests.",
+      body: "Providing responsive customer support to address any needs or inquiries promptly.", // Sesuai dokumen
     },
     {
-      title: "Proactive Care",
-      body: "Scheduled servicing keeps performance stable and downtime minimal.",
+      title: "Proactive Maintenance",
+      body: "Minimizing disruptions through regular maintenance and proactive fleet management.", // Sesuai dokumen
     },
   ],
 };
@@ -123,15 +124,18 @@ export const cities = [
   "Kota Balikpapan",
   "Samarinda",
   "Bontang",
-  "Kabupaten Berau",
+  "Kutai Timur",
+  "Penajam Paser Utara",
+  "Parigi Moutong",
 ];
 
 export const registry = {
-  title: "Corporate Registry Verified",
-  body: "We maintain full transparency with our partners. All business credentials are verified and up-to-date for government and private tenders.",
+  title: "Corporate Legalities",
+  body: "PT. Mitra Borneo Cemerlang is a legally registered entity (PMDN) with full compliance to Indonesian business regulations.",
   blocks: [
-    { key: "NIB Registry", value: "180420031281" },
+    { key: "NIB Registry", value: "1604250031831" },
     { key: "NPWP Tax ID", value: "1000 0000 0148 1309" },
+    { key: "Notary", value: "Cindy Putri Ananta, S.H, M.Kn" },
   ],
 };
 
@@ -141,12 +145,12 @@ export const aboutSection = {
   members: [
     {
       name: "Cintya Wullur",
-      position: "TBA",
+      position: "",
       image: "/images/landing/cintya_w.webp",
     },
     {
       name: "Masni Renova",
-      position: "TBA",
+      position: "",
       image: "/images/landing/masni_r.webp",
     },
   ],
@@ -167,4 +171,30 @@ export const footer = {
   ],
   copyright:
     "© 2026 PT. Mitra Borneo Cemerlang. Engineering Excellence in Mobility & Fleet Integrity.",
+};
+
+export const contactSection = {
+  title: "Get In Touch",
+  subtitle: "Reach out to our representatives or visit our branches.",
+  emails: [
+    { name: "Meyco" },
+    { name: "Masni" },
+    { name: "Cintya" },
+  ],
+  phone: "0542 5463019",
+  branches: [
+    {
+      name: "Balikpapan Head Office",
+      address: "Jl. Jenderal Ahmad Yani No.09 Balikpapan",
+    },
+    {
+      name: "Jakarta Branch",
+      address:
+        "Citywalk Sudirman No.121 Jalan KH. Mas Mansyur Kelurahan Karet Tengsin, Tanah Abang, Jakarta Pusat 10220",
+    },
+    {
+      name: "Palu Branch",
+      address: "jln Merdeka 4 Kel birobuli selatan kec palu selatan",
+    },
+  ],
 };
