@@ -137,8 +137,13 @@
   * {
     @apply border-border outline-ring/50;
   }
+
+  html {
+    @apply scroll-smooth font-sans;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply m-0 bg-background text-foreground;
     background-image:
       radial-gradient(
         circle at 80% 5%,
@@ -151,9 +156,16 @@
         transparent 23%
       );
   }
-  html {
-    @apply font-sans;
-    scroll-behavior: smooth;
+
+  /* Cursor pointer for buttons */
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+
+  /* Cursor pointer for links */
+  a {
+    @apply cursor-pointer hover:underline;
   }
 }
 
