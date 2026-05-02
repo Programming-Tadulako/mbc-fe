@@ -291,11 +291,11 @@ export const footer = {
     "Citywalk Sudirman No.121 Jalan KH. Mas Mansyur Kelurahan Karet Tengsin, Tanah Abang, Jakarta Pusat 10220",
   email: "mitraborneocemerlang@gmail.com",
   links: [
-    "About Us",
-    "Fleet Categories",
-    "Service Standards",
-    "Privacy Policy",
-    "Terms of Service",
+    { label: "Our Services", href: "#services" as Route },
+    { label: "Available Fleet", href: "#fleet" as Route },
+    { label: "Contact Us", href: "#contact" as Route },
+    { label: "Privacy Policy", href: "privacy" as Route },
+    { label: "Terms of Service", href: "terms" as Route },
   ],
   copyright:
     "© 2026 PT. Mitra Borneo Cemerlang. Engineering Excellence in Mobility & Fleet Integrity.",
@@ -309,7 +309,7 @@ export const contactSection = {
   branches: [
     {
       name: "Balikpapan Head Office",
-      address: "Jl. Jenderal Ahmad Yani No.09 Balikpapan",
+      address: "Jl. Jenderal Ahmad Yani No.09, Balikpapan",
     },
     {
       name: "Jakarta Branch",
@@ -318,7 +318,7 @@ export const contactSection = {
     },
     {
       name: "Palu Branch",
-      address: "jln Merdeka 4 Kel birobuli selatan kec palu selatan",
+      address: "Jl. Merdeka 4, Kel. Birobuli Selatan, Kec. Palu Selatan",
     },
   ],
 };

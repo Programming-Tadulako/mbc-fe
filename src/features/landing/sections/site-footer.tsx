@@ -21,17 +21,25 @@ export function SiteFooter() {
 
         <div className="space-y-2">
           {footer.links.slice(0, 3).map((link) => (
-            <p key={link} className="text-sm text-muted-foreground">
-              {link}
-            </p>
+            <Link
+              key={link.href}
+              href={link.href}
+              className="block text-sm text-muted-foreground"
+            >
+              {link.label}
+            </Link>
           ))}
         </div>
 
         <div className="space-y-2">
           {footer.links.slice(3).map((link) => (
-            <p key={link} className="text-sm text-muted-foreground">
-              {link}
-            </p>
+            <Link
+              key={link.href}
+              href={link.href}
+              className="block text-sm text-muted-foreground"
+            >
+              {link.label}
+            </Link>
           ))}
         </div>
       </div>
