@@ -60,15 +60,6 @@ export const privacySections: LegalSection[] = [
       "Withdraw consent at any time where processing is based on consent.",
     ],
   },
-  {
-    id: "contact",
-    title: "Contact Us",
-    body: "For any privacy-related questions, requests, or complaints, please reach out to us directly. We aim to respond within ten business days.",
-    bullets: [
-      "Email: mitraborneocemerlang@gmail.com",
-      "Address: Citywalk Sudirman No.121 Jalan KH. Mas Mansyur Kelurahan Karet Tengsin, Tanah Abang, Jakarta Pusat 10220",
-    ],
-  },
 ];
 
 export const termsMeta = {
@@ -142,14 +133,5 @@ export const termsSections: LegalSection[] = [
     id: "amendments",
     title: "Amendments",
     body: "MBC reserves the right to modify these Terms of Service at any time. Material changes will be communicated to active Clients via the contact details on file with a minimum notice period of 30 days. Continued use of our services after the effective date of changes constitutes acceptance of the revised terms.",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-    body: "For questions regarding these Terms of Service or any aspect of our rental agreements, please contact us:",
-    bullets: [
-      "Email: mitraborneocemerlang@gmail.com",
-      "Address: Citywalk Sudirman No.121 Jalan KH. Mas Mansyur Kelurahan Karet Tengsin, Tanah Abang, Jakarta Pusat 10220",
-    ],
   },
 ];
