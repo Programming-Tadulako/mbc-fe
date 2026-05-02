@@ -218,42 +218,42 @@ export const pricingFleet = {
     "Prices listed are unit prices based on corporate rental standards and may vary depending on contract duration and service level requirements.",
 };
 
-export const cities = [
+export const clients = [
   {
     name: "Kota Balikpapan",
-    image: "/images/cities/balikpapan.webp",
+    image: "/images/clients/balikpapan.webp",
   },
   {
     name: "Kota Samarinda",
-    image: "/images/cities/samarinda.webp",
+    image: "/images/clients/samarinda.webp",
   },
   {
     name: "Kota Bontang",
-    image: "/images/cities/bontang.webp",
+    image: "/images/clients/bontang.webp",
   },
   {
     name: "Kabupaten Kutai Timur",
-    image: "/images/cities/kutai_timur.webp",
+    image: "/images/clients/kutai_timur.webp",
   },
   {
     name: "Kabupaten Penajam Paser Utara",
-    image: "/images/cities/penajam_paser_utara.webp",
+    image: "/images/clients/penajam_paser_utara.webp",
   },
   {
     name: "Kabupaten Parigi Moutong",
-    image: "/images/cities/parigi_moutong.webp",
+    image: "/images/clients/parigi_moutong.webp",
   },
   {
     name: "Dinkes Kaltim",
-    image: "/images/cities/dinkes_kaltim.webp",
+    image: "/images/clients/dinkes_kaltim.webp",
   },
   {
     name: "Kabupaten Nunukan",
-    image: "/images/cities/nunukan.webp",
+    image: "/images/clients/nunukan.webp",
   },
   {
     name: "Kabupaten Tana Tidung",
-    image: "/images/cities/tana_tidung.webp",
+    image: "/images/clients/tana_tidung.webp",
   },
 ];
 

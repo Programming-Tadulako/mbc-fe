@@ -4,7 +4,7 @@ export { ShowcaseSection } from "./showcase-section";
 export { ValuesSection } from "./values-section";
 export { ServicesSection } from "./services-section";
 export { FleetSection } from "./fleet-section";
-export { CitiesSection } from "./cities-section";
+export { ClientSection } from "./client-section";
 export { RegistrySection } from "./registry-section";
 export { AboutSection } from "./about-section";
 export { SiteFooter } from "./site-footer";
