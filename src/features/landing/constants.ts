@@ -33,8 +33,8 @@ export const hero = {
       icon: ArrowUpRightIcon,
     },
     {
-      label: "Company Profile",
-      href: "#documentation" as Route,
+      label: "Get In Touch",
+      href: "#contact" as Route,
       variant: "outline" as const,
     },
   ],
@@ -101,32 +101,27 @@ export const pricingFleet = {
         {
           model: "Toyota Fortuner 2.8 4x4 GR AT",
           rate: 26000000,
-          image:
-            "/images/fleets/fortuner.webp",
+          image: "/images/fleets/fortuner.webp",
         },
         {
           model: "Toyota Fortuner 2.8 4x2 GR AT",
           rate: 19478330,
-          image:
-            "/images/fleets/fortuner.webp",
+          image: "/images/fleets/fortuner.webp",
         },
         {
           model: "Toyota Innova Zenix G 2.0 HV MDL CVT",
           rate: 16276635,
-          image:
-            "/images/fleets/toyota_innova_zenix.webp",
+          image: "/images/fleets/toyota_innova_zenix.webp",
         },
         {
           model: "Toyota Innova Zenix G 2.0 HV CVT",
           rate: 14190929,
-          image:
-            "/images/fleets/toyota_innova_zenix.webp",
+          image: "/images/fleets/toyota_innova_zenix.webp",
         },
         {
           model: "Toyota Innova Zenix G 2.0 CVT",
           rate: 12828448,
-          image:
-            "/images/fleets/toyota_innova_zenix.webp",
+          image: "/images/fleets/toyota_innova_zenix.webp",
         },
       ],
     },
@@ -136,38 +131,32 @@ export const pricingFleet = {
         {
           model: "BYD Seal Premium",
           rate: 19016884,
-          image:
-            "/images/fleets/byd_seal.webp",
+          image: "/images/fleets/byd_seal.webp",
         },
         {
           model: "MG ZS Magnity EV",
           rate: 10812373,
-          image:
-            "/images/fleets/mg_zs_ev.webp",
+          image: "/images/fleets/mg_zs_ev.webp",
         },
         {
           model: "Magnity 4 EV",
           rate: 10314242,
-          image:
-            "/images/fleets/mg_4_ev.webp",
+          image: "/images/fleets/mg_4_ev.webp",
         },
         {
           model: "MG VS HEV",
           rate: 8744422,
-          image:
-            "/images/fleets/mg_vs_hev.webp",
+          image: "/images/fleets/mg_vs_hev.webp",
         },
         {
           model: "Suzuki XL7 Alpha Hybrid AT",
           rate: 8741005,
-          image:
-            "/images/fleets/xl7_alpha.webp",
+          image: "/images/fleets/xl7_alpha.webp",
         },
         {
           model: "Suzuki Ertiga Hybrid GX AT",
           rate: 7752326,
-          image:
-            "/images/fleets/ertiga.webp",
+          image: "/images/fleets/ertiga.webp",
         },
       ],
     },
@@ -177,38 +166,32 @@ export const pricingFleet = {
         {
           model: "Toyota Rush 1.5 GR Sport AT",
           rate: 9499444,
-          image:
-            "/images/fleets/rush_sport.webp",
+          image: "/images/fleets/rush_sport.webp",
         },
         {
           model: "Toyota Rush 1.5 G AT",
           rate: 8944159,
-          image:
-            "/images/fleets/rush.webp",
+          image: "/images/fleets/rush.webp",
         },
         {
           model: "Toyota Veloz 1.5 V HV CVT",
           rate: 8613696,
-          image:
-            "/images/fleets/veloz.webp",
+          image: "/images/fleets/veloz.webp",
         },
         {
           model: "Toyota Avanza 1.5 G MT",
           rate: 7969023,
-          image:
-            "/images/fleets/avanza.webp",
+          image: "/images/fleets/avanza.webp",
         },
         {
           model: "Suzuki XL7 Zeta MT",
           rate: 7332476,
-          image:
-            "/images/fleets/xl7.webp",
+          image: "/images/fleets/xl7.webp",
         },
         {
           model: "Toyota Avanza 1.3 E MT",
           rate: 7318933,
-          image:
-            "/images/fleets/avanza.webp",
+          image: "/images/fleets/avanza.webp",
         },
       ],
     },
