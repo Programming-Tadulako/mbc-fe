@@ -20,7 +20,7 @@ export default function Home() {
       <main className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 pt-5 pb-12 md:gap-14 md:px-8 lg:px-10">
         <SiteHeader />
         <HeroSection />
-        <ShowcaseSection />
+        {/* <ShowcaseSection /> */}
         <ValuesSection />
         <ServicesSection />
         <FleetSection />

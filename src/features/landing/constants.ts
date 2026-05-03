@@ -38,8 +38,7 @@ export const hero = {
       variant: "outline" as const,
     },
   ],
-  heroImage:
-    "https://images.unsplash.com/photo-1682020245785-4619e7a89d2f?auto=format&fit=crop&w=1500&q=80",
+  heroImage: "/images/hero-bg.png",
 };
 
 export const valueSection = {
