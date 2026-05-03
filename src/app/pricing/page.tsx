@@ -2,7 +2,16 @@ import { SiteHeader, SiteFooter } from "@/features/landing/sections";
 import Pricing from "@/features/pricing";
 
 export const metadata = {
-  title: "Complete Fleet List | MBC",
+  title: "Daftar Armada & Harga | MBC Strategic Mobility Partner",
+  description:
+    "Lihat daftar lengkap armada kendaraan PT. Mitra Borneo Cemerlang. Kami menyediakan berbagai pilihan kendaraan dari Premium, Hybrid, hingga Standard untuk kebutuhan korporasi Anda.",
+  keywords: [
+    "Harga Sewa Mobil Balikpapan",
+    "Daftar Armada MBC",
+    "Sewa Fortuner Balikpapan",
+    "Sewa Innova Zenix Balikpapan",
+    "Rental Mobil Listrik Indonesia",
+  ],
 };
 
 export default function PricingPage() {

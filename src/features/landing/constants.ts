@@ -270,8 +270,8 @@ export const footer = {
   company: "MBC",
   legalName: "PT. Mitra Borneo Cemerlang",
   address:
-    "Citywalk Sudirman No.121 Jalan KH. Mas Mansyur Kelurahan Karet Tengsin, Tanah Abang, Jakarta Pusat 10220",
-  email: "mitraborneocemerlang@gmail.com",
+    "Jl. Jenderal Ahmad Yani No.09, Balikpapan",
+  email: "mbc_cs@mitraborneorent.com",
   links: [
     { label: "Our Services", href: "#services" as Route },
     { label: "Available Fleet", href: "#fleet" as Route },
@@ -286,7 +286,11 @@ export const footer = {
 export const contactSection = {
   title: "Get In Touch",
   subtitle: "Reach out to our representatives or visit our branches.",
-  emails: [{ name: "Meyco" }, { name: "Masni" }, { name: "Cintya" }],
+  emails: [
+    { name: "meyco@mitraborneorent.com" },
+    { name: "masni@mitraborneorent.com" },
+    { name: "cintya@mitraborneorent.com" },
+  ],
   phone: "0542 5463019",
   branches: [
     {
