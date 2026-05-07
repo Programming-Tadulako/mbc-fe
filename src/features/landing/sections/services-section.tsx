@@ -28,22 +28,28 @@ export function ServicesSection() {
           return (
             <article
               key={item.title}
-              className="group border-b border-border p-5 last:border-b-0 md:border-r md:border-b-0 last:md:border-r-0"
+              className="group flex min-h-44 flex-col justify-between border-b border-border p-5 last:border-b-0 md:border-r md:border-b-0 last:md:border-r-0"
             >
-              <div className="space-y-4">
+              <div className="flex items-start justify-between">
                 <Icon
                   className="text-primary transition-transform duration-300 group-hover:-translate-y-0.5"
                   size={20}
                   weight="duotone"
                 />
-                <div className="space-y-2">
-                  <h3 className="text-sm font-bold tracking-wider text-foreground uppercase">
-                    {item.title}
-                  </h3>
-                  <p className="text-xs leading-relaxed text-muted-foreground">
-                    {item.body}
-                  </p>
-                </div>
+                <span
+                  aria-hidden
+                  className="font-display text-5xl leading-none font-bold text-border select-none"
+                >
+                  {String(idx + 1).padStart(2, "0")}
+                </span>
+              </div>
+              <div className="space-y-2">
+                <h3 className="text-sm font-bold tracking-wider text-foreground uppercase">
+                  {item.title}
+                </h3>
+                <p className="text-xs leading-relaxed text-muted-foreground">
+                  {item.body}
+                </p>
               </div>
             </article>
           );
