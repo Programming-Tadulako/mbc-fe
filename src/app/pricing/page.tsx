@@ -19,7 +19,7 @@ export default function PricingPage() {
     <div className="relative min-h-screen overflow-x-clip bg-mbc-page pb-10 text-foreground">
       <div className="mbc-grid-overlay pointer-events-none absolute inset-0" />
 
-      <main className="relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 pt-5 pb-14 md:gap-16 md:px-8 lg:px-10">
+      <main className="relative z-10 mx-auto flex w-full max-w-7xl flex-col gap-10 px-4 pt-5 pb-14 md:gap-16 md:px-8 lg:px-10">
         <Pricing />
         <SiteFooter />
       </main>

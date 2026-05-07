@@ -64,19 +64,19 @@ export const services = {
   items: [
     {
       title: "Vehicle Readiness",
-      body: "Maintaining maximum vehicle readiness through disciplined fleet management and high operational standards.", // Sesuai dokumen
+      body: "Maintaining maximum vehicle readiness through disciplined fleet management and high operational standards.",
     },
     {
       title: "Timely Logistics",
-      body: "Ensuring timely delivery and pickup of vehicles to minimize operational disruptions for your business.", // Sesuai dokumen
+      body: "Ensuring timely delivery and pickup of vehicles to minimize operational disruptions for your business.",
     },
     {
       title: "Responsive Support",
-      body: "Providing responsive customer support to address any needs or inquiries promptly.", // Sesuai dokumen
+      body: "Providing responsive customer support to address any needs or inquiries promptly.",
     },
     {
       title: "Proactive Maintenance",
-      body: "Minimizing disruptions through regular maintenance and proactive fleet management.", // Sesuai dokumen
+      body: "Minimizing disruptions through regular maintenance and proactive fleet management.",
     },
   ],
 };
