@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { LegalPageContent } from "@/features/legal/layout";
 import { privacyMeta, privacySections } from "@/features/legal/content";
+import { LegalPageContent } from "@/features/legal/layout";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | MBC",

@@ -269,8 +269,7 @@ export const aboutSection = {
 export const footer = {
   company: "MBC",
   legalName: "PT. Mitra Borneo Cemerlang",
-  address:
-    "Jl. Jenderal Ahmad Yani No.09, Balikpapan",
+  address: "Jl. Jenderal Ahmad Yani No.09, Balikpapan",
   email: "mbc_cs@mitraborneorent.com",
   links: [
     { label: "Our Services", href: "#services" as Route },

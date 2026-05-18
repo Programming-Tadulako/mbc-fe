@@ -16,7 +16,7 @@ export function ValuesSection() {
     <section className="rounded-md border border-border/60 bg-zinc-800 px-4 py-12 md:px-8">
       <div className="grid gap-8 lg:grid-cols-2">
         <div className="space-y-5">
-          <h2 className="font-display text-4xl leading-none uppercase md:text-5xl text-secondary">
+          <h2 className="font-display text-4xl leading-none text-secondary uppercase md:text-5xl">
             Precision & <span className="text-primary">Integrity</span>
           </h2>
           <p className="text-sm leading-relaxed text-muted md:text-base">

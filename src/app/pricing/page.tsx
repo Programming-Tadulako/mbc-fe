@@ -1,4 +1,4 @@
-import { SiteHeader, SiteFooter } from "@/features/landing/sections";
+import { SiteFooter } from "@/features/landing/sections";
 import Pricing from "@/features/pricing";
 
 export const metadata = {
