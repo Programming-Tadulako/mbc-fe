@@ -2,9 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { navItems } from "@/features/landing/constants";
 import { ListIcon } from "@phosphor-icons/react/dist/ssr";
+import { Button, buttonVariants } from "@/components/ui/button";
 import {
   Drawer,
   DrawerClose,
@@ -15,6 +14,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
+import { navItems } from "@/features/landing/constants";
 
 export function SiteHeader() {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,16 +40,22 @@ export function SiteHeader() {
           ))}
         </nav>
         <div className="flex items-center gap-2">
-          <Button size="sm" className="hidden md:flex">
+          <Link
+            href="/enquire"
+            className={buttonVariants({
+              size: "sm",
+              className: "hidden md:flex",
+            })}
+          >
             Enquire Now
-          </Button>
+          </Link>
 
           <Drawer open={isOpen} onOpenChange={setIsOpen} direction="left">
             <DrawerTrigger asChild>
               <Button
                 variant="outline"
                 size="icon"
-                className="flex md:hidden h-8 w-8"
+                className="flex h-8 w-8 md:hidden"
               >
                 <ListIcon size={18} />
                 <span className="sr-only">Toggle Menu</span>
@@ -78,9 +84,16 @@ export function SiteHeader() {
                   ))}
                 </nav>
                 <DrawerFooter className="pt-2">
-                  <Button size="sm" className="w-full">
+                  <Link
+                    href="/enquire"
+                    onClick={() => setIsOpen(false)}
+                    className={buttonVariants({
+                      size: "sm",
+                      className: "w-full",
+                    })}
+                  >
                     Enquire Now
-                  </Button>
+                  </Link>
                   <DrawerClose asChild>
                     <Button variant="outline" className="w-full">
                       Close
