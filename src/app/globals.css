@@ -165,7 +165,7 @@
 
   /* Cursor pointer for links */
   a {
-    @apply cursor-pointer hover:underline;
+    @apply cursor-pointer;
   }
 }
 
