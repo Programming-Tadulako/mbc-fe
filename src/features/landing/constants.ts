@@ -2,11 +2,11 @@ import type { Route } from "next";
 import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr";
 
 export const navItems = [
-  { label: "Services", href: "#services" as Route },
-  { label: "Fleet", href: "#fleet" as Route },
-  { label: "About", href: "#about" as Route },
-  { label: "Legalities", href: "#registry" as Route },
-  { label: "Contact", href: "#contact" as Route },
+  { label: "Services", href: "/#services" as Route },
+  { label: "Fleet", href: "/#fleet" as Route },
+  { label: "About", href: "/#about" as Route },
+  { label: "Legalities", href: "/#registry" as Route },
+  { label: "Contact", href: "/#contact" as Route },
 ];
 
 export const hero = {
